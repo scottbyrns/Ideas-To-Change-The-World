@@ -1,0 +1,6 @@
+Project Structure:
+	bettertomorrow/ - Wicket project for main website.
+	coreapi/ - API that will provide the data to the bettertomorrow application.
+	android/ - Android moble application.
+	ios/ - iPhone mobile application.
+
