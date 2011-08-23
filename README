@@ -1,6 +1,6 @@
 Project Structure:
 	bettertomorrow/ - Wicket project for main website.
-	coreapi/ - API that will provide the data to the bettertomorrow application.
+	ServerAPI/ - API that will provide the data to the bettertomorrow application.
 	clientapi/ - Java client to communicate with the server api.
 	util/ - Objects and utilities shared between the java projects. This includes the POJO entities used in the client and server api.
 	android/ - Android moble application.
