@@ -38,6 +38,10 @@ public class HomePage extends WebPage
                 new Label("introduction", labelModel)
         );
 
+        add(
+                new AboutIBTPanel("about-ibt")
+        );
+
     }
 
     /**
