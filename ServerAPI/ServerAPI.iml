@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
@@ -46,6 +45,9 @@
     <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-transports-http:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-transports-common:2.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.6.2" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.6.2" level="project" />
   </component>
 </module>
 
