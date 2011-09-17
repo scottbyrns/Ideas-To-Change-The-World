@@ -60,19 +60,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.java">
+      <file leaf-file-name="HomePage.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="10" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
+            <state line="23" column="28" selection-start="523" selection-end="523" vertical-scroll-proportion="-13.142858">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="47" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+            <state line="6" column="32" selection-start="285" selection-end="299" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutIBTPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="23" selection-start="628" selection-end="1116" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutIBTPanel.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="34" selection-start="0" selection-end="154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdeaPanel.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/IdeaPanel.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="28" selection-start="82" selection-end="82" vertical-scroll-proportion="0.022346368">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdeaPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/IdeaPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="21" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WicketApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/WicketApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="46" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdeaPanel.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/IdeaPanel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="43" selection-start="0" selection-end="146" vertical-scroll-proportion="-2.857143">
               <folding />
             </state>
           </provider>
@@ -87,66 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="276" selection-end="276" vertical-scroll-proportion="-5.714286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutIBTPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="39" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AboutIBTPanel.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="-2.857143">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutIBTPanel.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="49" selection-end="59" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="41" selection-start="312" selection-end="312" vertical-scroll-proportion="0.25263157">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WicketApplication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/WicketApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="46" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Start.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ideastobettertheworld/Start.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+            <state line="5" column="33" selection-start="0" selection-end="161" vertical-scroll-proportion="-2.857143">
               <folding />
             </state>
           </provider>
@@ -159,20 +159,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/main.css" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/IdeaPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/IdeaPanel.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/IdeaPanel.properties" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/share/maven" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -185,6 +198,56 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Ideas To Better The World" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Ideas To Better The World" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jetty" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Ideas To Better The World" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Ideas To Better The World" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -223,6 +286,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Favorites" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,14 +321,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ideastobettertheworld" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,20 +400,70 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="MavenSettings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="checksumPolicy" value="FAIL" />
+            <option name="failureBehavior" value="FAST" />
+            <option name="mavenHome" value="/usr/share/maven" />
+            <option name="mavenSettingsFile" value="" />
+            <option name="nonRecursive" value="false" />
+            <option name="overriddenLocalRepository" value="" />
+            <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="jreName" value="#JAVA_INTERNAL" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -453,6 +560,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="Talios.JiraConfigurationComponent" enableIssueTracking="false" autoRefresh="false" useExternalBrowser="false" refreshTimeout="0" annotateissues="false">
@@ -492,11 +600,11 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32944068" sideWeight="0.670354" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24953903" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24953903" sideWeight="0.670354" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -504,8 +612,8 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Facebook Chat" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Facebook Chat" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -564,21 +672,9 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ideastobettertheworld/TestHomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="25" column="44" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ideastobettertheworld/Start.java">
@@ -588,14 +684,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="47" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+        <state line="19" column="30" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="23" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket/1.4.18/wicket-1.4.18.jar!/org/apache/wicket/markup/html/basic/Label.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="368" selection-end="368" vertical-scroll-proportion="0.24048096">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/WicketApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="46" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+        <state line="18" column="46" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="32" selection-start="285" selection-end="299" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="28" selection-start="523" selection-end="523" vertical-scroll-proportion="-13.142858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket/1.4.18/wicket-1.4.18.jar!/org/apache/wicket/model/StringResourceModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="55" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.252505">
           <folding />
         </state>
       </provider>
@@ -605,50 +734,64 @@
         <state line="0" column="164" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="10" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0">
+        <state line="1" column="34" selection-start="0" selection-end="154" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="49" selection-end="59" vertical-scroll-proportion="0.0">
+        <state line="5" column="33" selection-start="0" selection-end="161" vertical-scroll-proportion="-2.857143">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="39" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
+        <state line="45" column="23" selection-start="628" selection-end="1116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/IdeaPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="21" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/AboutIBTPanel.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/IdeaPanel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="-2.857143">
+        <state line="5" column="43" selection-start="0" selection-end="146" vertical-scroll-proportion="-2.857143">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/IdeaPanel.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="276" selection-end="276" vertical-scroll-proportion="-5.714286">
+        <state line="1" column="28" selection-start="82" selection-end="82" vertical-scroll-proportion="0.022346368">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="41" selection-start="312" selection-end="312" vertical-scroll-proportion="0.25263157">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions />
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions />
+        </settings>
+      </state>
+    </states>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

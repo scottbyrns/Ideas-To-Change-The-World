@@ -1,5 +1,6 @@
 package com.ideastobettertheworld;
 
+import com.ideas.api.client.services.ideas.IdeasService;
 import org.apache.wicket.PageParameters;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.WebPage;
@@ -25,6 +26,9 @@ public class HomePage extends WebPage
     public HomePage (final PageParameters parameters)
     {
 
+//        new IdeasService().getIdeaById(7L);
+
+
         StringResourceModel labelModel = new StringResourceModel(
                 "introduction",
                 this,
@@ -40,6 +44,10 @@ public class HomePage extends WebPage
 
         add(
                 new AboutIBTPanel("about-ibt")
+        );
+
+        add(
+                new IdeaPanel("idea")
         );
 
     }
