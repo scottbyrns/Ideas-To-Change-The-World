@@ -13,17 +13,14 @@ public class DBFactory implements FactoryBean<DB> {
     private Mongo mongo;
     private String name;
 
-    @Override
     public DB getObject() throws Exception {
         return mongo.getDB(name);
     }
 
-    @Override
     public Class<?> getObjectType() {
         return DB.class;
     }
 
-    @Override
     public boolean isSingleton() {
         return true;
     }

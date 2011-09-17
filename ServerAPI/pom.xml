@@ -180,6 +180,12 @@
             <version>1.6.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.ideastobettertheworld</groupId>
+            <artifactId>utilities</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>

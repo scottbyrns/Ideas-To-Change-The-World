@@ -42,7 +42,6 @@
 
     <bean id="mongo" class="com.mongodb.Mongo">
         <constructor-arg value="localhost"/>
-        <!--<constructor-arg value="27017"/>-->
     </bean>
 
     <bean id="db" class="com.ideas.persistance.DBFactory">

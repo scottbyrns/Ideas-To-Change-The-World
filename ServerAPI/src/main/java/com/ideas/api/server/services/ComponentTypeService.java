@@ -11,7 +11,7 @@ import javax.ws.rs.core.MediaType;
  */
 @Path("/componentType/")
 @Produces(MediaType.APPLICATION_JSON)
-public class ComponentTypeService extends BaseService<ComponentType>
+public class ComponentTypeService extends BaseCrudService<ComponentType>
 {
 
 }

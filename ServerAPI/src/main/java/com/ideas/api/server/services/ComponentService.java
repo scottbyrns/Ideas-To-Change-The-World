@@ -1,10 +1,6 @@
 package com.ideas.api.server.services;
 
-import com.ideas.entities.documents.Component;
-
-import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
@@ -13,7 +9,7 @@ import javax.ws.rs.core.MediaType;
  */
 @Path("/component/")
 @Produces(MediaType.APPLICATION_JSON)
-public class ComponentService extends BaseService<Component>
+public class ComponentService extends BaseCrudService<com.ideas.entities.documents.Component>
 {
 
 }

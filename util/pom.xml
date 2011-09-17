@@ -7,7 +7,13 @@
     <groupId>com.ideastobettertheworld</groupId>
     <artifactId>utilities</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
+    <name>Ideas To Change The World - Utils</name>
+    <url>http://maven.apache.org</url>
 
-    
-    
+
+    <properties>
+
+    </properties>
+
 </project>

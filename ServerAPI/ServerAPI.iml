@@ -48,6 +48,7 @@
     <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:1.3" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.6.2" level="project" />
+    <orderEntry type="library" name="Maven: com.ideastobettertheworld:utilities:1.0" level="project" />
   </component>
 </module>
 
