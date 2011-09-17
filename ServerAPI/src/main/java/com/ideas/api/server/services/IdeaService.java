@@ -12,7 +12,32 @@ import java.util.UUID;
 /**
  * Service to provide a crud interface to ideas.
  *
- * echo '{"name":"Paint The Buildings!", "idea":"With blue!"}' | curl -X POST -H 'Content-type: application/json; charset=UTF-8' -d @- http://localhost:8081/api/idea/create
+ *
+ * <h2> Endpoinds: </h2>
+ * <p />
+ * <h3> GET </h3>
+ *
+ * <h4> URL </h4>
+ * http://host/api/idea/get/{id}
+ *
+ * <h4> Get Parameters </h4>
+ * <ul>
+ *     <li><strong>ID</strong> - The ID of the idea to retrieve.</li>
+ * </ul>
+ *
+ * <h3> CREATE </h3>
+ *
+ * <h4> URL </h4>
+ * http://host/api/idea/create
+ *
+ * <h4> Post </h4>
+ * <code>
+ * {
+ *    "title": "Title Test",
+ *    "ideaText": "This is test text."
+ * }
+ * </code>
+ *
  */
 @Path("/idea/")
 @Produces(MediaType.APPLICATION_JSON)
