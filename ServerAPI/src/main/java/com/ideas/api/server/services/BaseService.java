@@ -1,13 +1,7 @@
 package com.ideas.api.server.services;
 
-import com.ideas.persistance.DynamicModelDAO;
 import com.ideas.utils.JSONObjectMapper;
 import org.codehaus.jackson.map.ObjectMapper;
-
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-import java.lang.reflect.ParameterizedType;
-import java.util.UUID;
 
 /**
  * Abstraction of service functionality shared by all services.

@@ -11,9 +11,16 @@
     <name>Ideas To Change The World - Utils</name>
     <url>http://maven.apache.org</url>
 
-
     <properties>
 
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+    </dependencies>
 
 </project>
