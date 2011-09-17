@@ -2,14 +2,12 @@ package com.ideas.entities.ideas;
 
 /**
  * An idea.
- *
  */
 public class Idea {
 
     private String title;
     private String ideaText;
-    private int id;
-    private int authorId;
+    private long id;
 
     /**
      * Get the title of the idea.
@@ -56,7 +54,7 @@ public class Idea {
      *
      * @return The ID of the idea.
      */
-    public int getId()
+    public long getId()
     {
         return id;
     }
@@ -66,30 +64,9 @@ public class Idea {
      *
      * @param id The ID of the idea.
      */
-    public void setId(int id)
+    public void setId(long id)
     {
         this.id = id;
     }
-
-    /**
-     * Get the ID of the author of the idea.
-     *
-     * @return The ID of the author of the idea.
-     */
-    public int getAuthorId()
-    {
-        return authorId;
-    }
-
-    /**
-     * Set the ID of the author of the idea.
-     *
-     * @param authorId ID of the author of the idea.
-     */
-    public void setAuthorId(int authorId)
-    {
-        this.authorId = authorId;
-    }
-
 
 }

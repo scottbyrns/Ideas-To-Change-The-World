@@ -1,6 +1,7 @@
 package com.ideas.api.server.services;
 
 import com.ideas.entities.ideas.Idea;
+import com.ideas.persistance.IdeaDAO;
 import com.ideas.utils.HibernateUtil;
 import org.hibernate.Session;
 
@@ -37,26 +38,48 @@ public class IdeaService extends BaseService
 
         try
         {
-            Idea idea = getObjectMapper().readValue(data, Idea.class);
+            Idea idea = (Idea)getObjectMapper().readValue(data, Idea.class);
 
-            data = getObjectMapper().writeValueAsString(idea);
+            IdeaDAO ideaDAO = new IdeaDAO();
+            idea = ideaDAO.saveIdea(idea);
 
-            Session session = HibernateUtil.getSessionFactory().getCurrentSession();
-
-            session.beginTransaction();
-
-            session.save(idea);
-            session.getTransaction().commit();
-
-            HibernateUtil.getSessionFactory().close();
-
-            return data;
+            return getObjectMapper().writeValueAsString(idea);
         }
         catch (Exception e)
         {
             return e.getLocalizedMessage();
         }
 
+    }
+
+    /**
+     * Get an idea by it's ID
+     *
+     * @return The idea.
+     */
+    @GET
+    @Path("/get/{id}")
+    public String get(@PathParam("id") String id)
+    {
+        IdeaDAO ideaDAO = new IdeaDAO();
+        Idea idea = ideaDAO.getById(Long.valueOf(id));
+
+//        Idea mappableIdea = new Idea();
+//        mappableIdea.setId(idea.getId());
+//        mappableIdea.setIdeaText(idea.getIdeaText());
+//        mappableIdea.setTitle(idea.getTitle());
+//
+//        idea = null;
+
+        try
+        {
+            return getObjectMapper().writeValueAsString(idea);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+            return e.getLocalizedMessage();
+        }
     }
 
 }
