@@ -31,6 +31,27 @@ div#ideaBox
     text-align:center;
 }
 
+h2
+{
+    text-align:center;
+    font-weight:100;
+}
+
+h3
+{
+    text-align:center;
+}
+
+div#searchBox
+{
+    text-align:center;
+}
+
+div#searchBox input
+{
+    width:600px;
+}
+
 div#ideaBox textarea
 {
     width:600;
