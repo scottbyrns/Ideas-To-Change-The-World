@@ -1,9 +1,11 @@
 package com.ideas.entities.users;
 
+import java.io.Serializable;
+
 /**
  * Enumeration of different sexes.
  */
-public enum Sex
+public enum Sex implements Serializable
 {
     /**
      * Male sex.

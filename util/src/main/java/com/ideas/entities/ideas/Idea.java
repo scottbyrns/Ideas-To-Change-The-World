@@ -1,9 +1,12 @@
 package com.ideas.entities.ideas;
 
+import java.io.Serializable;
+
 /**
  * An idea.
  */
-public class Idea {
+public class Idea implements Serializable
+{
 
     private String title;
     private String ideaText;

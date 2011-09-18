@@ -1,9 +1,11 @@
 package com.ideas.entities.documents;
 
+import java.io.Serializable;
+
 /**
  * Encapsulation of a single asset.
  */
-public class Component
+public class Component implements Serializable
 {
     private ComponentType componentType;
     private String componentId;

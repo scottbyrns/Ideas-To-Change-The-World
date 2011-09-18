@@ -1,9 +1,11 @@
 package com.ideas.entities.users;
 
+import java.io.Serializable;
+
 /**
  * User Object
  */
-public class User
+public class User implements Serializable
 {
     private long userId;
     private Username username;

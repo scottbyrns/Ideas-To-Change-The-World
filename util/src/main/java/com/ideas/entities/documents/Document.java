@@ -1,11 +1,12 @@
 package com.ideas.entities.documents;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * A document that encapsulates a one to many relationship with components.
  */
-public class Document
+public class Document implements Serializable
 {
 
     private List<OrderedComponent> componentList;

@@ -1,9 +1,12 @@
 package com.ideas.entities.documents;
 
+import java.io.Serializable;
+
 /**
  * A component with an order index specified.
  */
-public class OrderedComponent {
+public class OrderedComponent implements Serializable
+{
 
     private Component component;
     private int order;
@@ -13,7 +16,8 @@ public class OrderedComponent {
      *
      * @return The component.
      */
-    public Component getComponent() {
+    public Component getComponent()
+    {
         return component;
     }
 
@@ -22,7 +26,8 @@ public class OrderedComponent {
      *
      * @param component The component.
      */
-    public void setComponent(Component component) {
+    public void setComponent(Component component)
+    {
         this.component = component;
     }
 
@@ -31,7 +36,8 @@ public class OrderedComponent {
      *
      * @return The order.
      */
-    public int getOrder() {
+    public int getOrder()
+    {
         return order;
     }
 
@@ -40,7 +46,8 @@ public class OrderedComponent {
      *
      * @param order The order.
      */
-    public void setOrder(int order) {
+    public void setOrder(int order)
+    {
         this.order = order;
     }
 }

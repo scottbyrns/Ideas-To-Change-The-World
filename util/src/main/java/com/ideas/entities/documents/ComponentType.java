@@ -1,9 +1,11 @@
 package com.ideas.entities.documents;
 
+import java.io.Serializable;
+
 /**
  * The type of a component.
  */
-public class ComponentType
+public class ComponentType implements Serializable
 {
     private String typeName;
     private String componentId;
