@@ -50,6 +50,10 @@ public class HomePage extends WebPage
                 new IdeaPanel("idea")
         );
 
+        add(
+                new PostIdeaPanel("post-idea")
+        );
+
     }
 
     /**

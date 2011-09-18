@@ -10,20 +10,18 @@ import org.apache.wicket.util.value.ValueMap;
 /**
  * Panel for the about header.
  */
-public class AboutIBTPanel extends Panel
+public class AboutIBTPanel extends BasePanel
 {
 
     public AboutIBTPanel(String id) {
         super(id);
-        setupPanel();
     }
 
     public AboutIBTPanel(String id, IModel<?> model) {
         super(id, model);
-        setupPanel();
     }
 
-    private void setupPanel ()
+    public void setupPanel ()
     {
         StringResourceModel labelModel = new StringResourceModel(
                 "about-label",
