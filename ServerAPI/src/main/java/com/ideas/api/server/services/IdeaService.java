@@ -89,13 +89,6 @@ public class IdeaService extends BaseService
         IdeaDAO ideaDAO = new IdeaDAO();
         Idea idea = ideaDAO.getById(Long.valueOf(id));
 
-//        Idea mappableIdea = new Idea();
-//        mappableIdea.setId(idea.getId());
-//        mappableIdea.setIdeaText(idea.getIdeaText());
-//        mappableIdea.setTitle(idea.getTitle());
-//
-//        idea = null;
-
         try
         {
             return getObjectMapper().writeValueAsString(idea);

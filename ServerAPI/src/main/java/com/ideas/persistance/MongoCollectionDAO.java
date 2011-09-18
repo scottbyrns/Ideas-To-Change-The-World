@@ -15,6 +15,7 @@ import com.mongodb.util.JSON;
 /**
  * http://www.tikalk.com/java/mongodb-spring-and-rest-–-trio-jee-dynamic-data-access
  */
+@Deprecated
 public class MongoCollectionDAO implements DynamicModelDAO
 {
     private DB db;
@@ -42,7 +43,6 @@ public class MongoCollectionDAO implements DynamicModelDAO
         dbCollection = db.getCollection(collectionName);
     }
 
-    @Override
     public void create(String entity)
     {
         DBObject dbObject = getDbObject(entity);
@@ -55,7 +55,6 @@ public class MongoCollectionDAO implements DynamicModelDAO
         return dbObject;
     }
 
-    @Override
     public void create(String entity, Serializable id)
     {
         DBObject dbObject = getDbObject(entity);
@@ -63,21 +62,18 @@ public class MongoCollectionDAO implements DynamicModelDAO
         dbCollection.insert(dbObject);
     }
 
-    @Override
     public void update(String entity)
     {
         DBObject dbObject = getDbObject(entity);
         dbCollection.save(dbObject);
     }
 
-    @Override
     public String findById(Serializable id)
     {
         DBObject dbObject = dbCollection.findOne(id);
         return JSON.serialize(dbObject);
     }
 
-    @Override
     public void delete(String entity)
     {
         DBObject dbObject = getDbObject(entity);

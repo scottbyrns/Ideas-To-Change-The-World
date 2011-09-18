@@ -7,6 +7,7 @@ import java.io.Serializable;
  *
  * http://www.tikalk.com/java/mongodb-spring-and-rest-–-trio-jee-dynamic-data-access
  */
+@Deprecated
 public interface GenericDAO  <T, ID extends Serializable> {
 	public void create(T entity);
 	public void create(T entity,ID id);

@@ -7,6 +7,7 @@ import java.io.Serializable;
  *
  * http://www.tikalk.com/java/mongodb-spring-and-rest-–-trio-jee-dynamic-data-access
  */
+@Deprecated
 public interface DynamicModelDAO extends GenericDAO<String, Serializable>{
     /**
      * Get the next free unique ID.
