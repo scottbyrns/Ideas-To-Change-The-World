@@ -26,9 +26,6 @@ public class HomePage extends WebPage
     public HomePage (final PageParameters parameters)
     {
 
-//        new IdeasService().getIdeaById(7L);
-
-
         StringResourceModel labelModel = new StringResourceModel(
                 "introduction",
                 this,

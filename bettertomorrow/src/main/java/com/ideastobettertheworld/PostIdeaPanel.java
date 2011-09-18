@@ -1,6 +1,6 @@
 package com.ideastobettertheworld;
 
-import org.apache.wicket.markup.html.form.Form;
+import com.ideastobettertheworld.forms.PostIdeaForm;
 import org.apache.wicket.model.IModel;
 
 /**

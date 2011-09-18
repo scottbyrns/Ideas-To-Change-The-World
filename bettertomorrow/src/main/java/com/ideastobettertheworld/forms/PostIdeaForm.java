@@ -1,7 +1,8 @@
-package com.ideastobettertheworld;
+package com.ideastobettertheworld.forms;
 
 import com.ideas.api.client.services.ideas.IdeasService;
 import com.ideas.entities.ideas.Idea;
+import com.ideastobettertheworld.BaseForm;
 import org.apache.wicket.markup.html.form.Form;
 import org.apache.wicket.markup.html.form.TextArea;
 import org.apache.wicket.markup.html.form.TextField;
