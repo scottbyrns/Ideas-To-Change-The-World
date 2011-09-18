@@ -2,22 +2,81 @@ package com.ideas;
 
 import com.ideas.api.client.services.ideas.IdeasService;
 import com.ideas.entities.ideas.Idea;
+import org.junit.Test;
+
+import java.util.UUID;
+
+import static org.junit.Assert.*;
 
 /**
- * Created by IntelliJ IDEA.
- * User: scott
- * Date: 9/17/11
- * Time: 9:10 AM
- * To change this template use File | Settings | File Templates.
+ * Test the ideas service endpoints.
  */
 public class TestIdeasService
 {
 
-    @org.junit.Test
-    public void testRequestURL () throws Exception
+    /**
+     * Test getting an idea by ID
+     *
+     * @throws Exception
+     */
+    @Test
+    public void testGetIdeaById ()
     {
         IdeasService service = new IdeasService();
         Idea idea = service.getIdeaById(1);
-        idea.getId();
+
+        assertEquals(
+                "Asserting that the ID of the returned idea is equal to the ID requested.",
+                1L,
+                idea.getId()
+        );
+    }
+
+    /**
+     * Test the idea text of a created idea.
+     */
+    @Test
+    public void testIdeaTextOfCreatedIdea ()
+    {
+        UUID uuid = UUID.randomUUID();
+        String ideaText = "Generated Idea Text : " + uuid.toString();
+
+        IdeasService service = new IdeasService();
+        Idea idea = new Idea();
+        idea.setTitle("TestIdea");
+        idea.setIdeaText(ideaText);
+
+        Idea createdIdea = service.createIdea(idea);
+
+        assertEquals(
+                "Asserting that the idea text that was created matches the idea text that was supposed to be created.",
+                idea.getIdeaText(),
+                createdIdea.getIdeaText()
+        );
+
+    }
+
+    /**
+     * Test the title of a created idea.
+     */
+    @Test
+    public void testTitleOfCreatedIdea ()
+    {
+        UUID uuid = UUID.randomUUID();
+        String ideaText = "Generated Idea Text : " + uuid.toString();
+
+        IdeasService service = new IdeasService();
+        Idea idea = new Idea();
+        idea.setTitle("TestIdea");
+        idea.setIdeaText(ideaText);
+
+        Idea createdIdea = service.createIdea(idea);
+
+        assertEquals(
+                "Asserting that the idea title that was created matches the idea title that was supposed to be created.",
+                idea.getTitle(),
+                createdIdea.getTitle()
+        );
+
     }
 }

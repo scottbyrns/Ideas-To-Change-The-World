@@ -13,6 +13,8 @@ import java.util.Set;
 public class APIRequest
 {
 
+    public static final String JSON_DATA = "JSON_DATA";
+
     private static final String baseRequestUrl = "http://localhost:8081/api";
 
     private RequestType requestType;
