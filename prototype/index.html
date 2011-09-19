@@ -8,26 +8,55 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
         <script src="liveWidgets.js"></script>
         <script src="yourIdea.js"></script>
+        <script src="searchBar.js"></script>
+        <script src="searchResults.js"></script>
     </head>
 
     <body>
 
-        <h1 id="yourIdea">
-            What is your idea to better the world?
-        </h1>
+        <header>
+            Ideas To Better The World <span>Home</span><span>Profile</span>
+        </header>
 
-        <div data-widget="your-idea" id="ideaBox">
-            <textarea>
-            </textarea>
+        <div data-widget="your-idea" data-group="homepage-inputs" id="ideaBox">
+
+            <div class="fade-wrapper">
+
+                <h1 id="yourIdea">
+                    What is your idea to better the world?
+                </h1>
+
+                <div class="text-area-wrapper">
+                    <textarea></textarea>
+                    <div class="idea-text"></div>
+                </div>
+
+                <div class="text-input-wrapper">
+                    <h3>Describe your idea in a few short words.</h3>
+                    <input type="text" />
+                    <div class="title-text"></div>
+                </div>
+
+                <div class="share">
+                    <a name="share-button">Share Your Idea</a>
+                </div>
+
+                <h2 id="or">
+                    <span>or</span>
+                    <div></div>
+                </h2>
+
+            </div>
+
         </div>
 
-        <h2 id="or">
-            or
-        </h2>
-
-        <div data-widget="search-ideas" id="searchBox">
-            <h3>Search Ideas</h3>
+        <div data-widget="search-bar" data-group="homepage-inputs" id="searchBox">
+            <h3>Search the ideas of others.</h3>
             <input type="text" name="search" />
+        </div>
+
+        <div data-widget="search-results" data-group="homepage-inputs" id="searchResults">
+
         </div>
 
     </body>
