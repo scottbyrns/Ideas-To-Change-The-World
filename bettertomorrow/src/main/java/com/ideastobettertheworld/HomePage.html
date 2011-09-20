@@ -4,26 +4,24 @@
         <title>Ideas To Better The World</title>
 
         <wicket:link>
-            <link rel="stylesheet" type="text/css" href="main.css"/>
+            <link rel="stylesheet" type="text/css" href="assets/main.css"/>
         </wicket:link>
-        <script src="liveWidgets.js" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+        <script src="resources/com.ideastobettertheworld.HomePage/assets/liveWidgets.js"></script>
+        <script src="resources/com.ideastobettertheworld.HomePage/assets/yourIdea.js"></script>
+        <script src="resources/com.ideastobettertheworld.HomePage/assets/searchBar.js"></script>
+
     </head>
 
     <body>
 
-        <div wicket:id="about-ibt"></div>
+        <header wicket:id="header"></header>
 
-        <h1>
-            Ideas To Better The World
-        </h1>
-        <p wicket:id="introduction">
-            Introduction Message Will Go Here
-        </p>
+        <div data-widget="your-idea" data-group="homepage-inputs" id="ideaBox" wicket:id="your-idea"></div>
 
-
-        <div wicket:id="idea"></div>
-
-        <div wicket:id="post-idea"></div>
+        <div data-widget="search-bar" data-group="homepage-inputs" id="searchBox" wicket:id="search-box"></div>
 
     </body>
 </html>

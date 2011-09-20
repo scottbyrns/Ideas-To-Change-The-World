@@ -1,6 +1,9 @@
 package com.ideastobettertheworld;
 
 import com.ideas.api.client.services.ideas.IdeasService;
+import com.ideastobettertheworld.panels.shared.HeaderPanel;
+import com.ideastobettertheworld.panels.splash.SearchBoxPanel;
+import com.ideastobettertheworld.panels.splash.YourIdeaPanel;
 import org.apache.wicket.PageParameters;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.WebPage;
@@ -34,21 +37,16 @@ public class HomePage extends WebPage
                 )
         );
 
-
         add(
-                new Label("introduction", labelModel)
+                new HeaderPanel("header")
         );
 
         add(
-                new AboutIBTPanel("about-ibt")
+                new YourIdeaPanel("your-idea")
         );
 
         add(
-                new IdeaPanel("idea")
-        );
-
-        add(
-                new PostIdeaPanel("post-idea")
+                new SearchBoxPanel("search-box")
         );
 
     }

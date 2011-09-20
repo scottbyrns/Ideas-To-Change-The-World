@@ -1,14 +1,10 @@
-package com.ideastobettertheworld;
+package com.ideastobettertheworld.panels;
 
 import org.apache.wicket.markup.html.panel.Panel;
 import org.apache.wicket.model.IModel;
 
 /**
- * Created by IntelliJ IDEA.
- * User: scott
- * Date: 9/17/11
- * Time: 6:45 PM
- * To change this template use File | Settings | File Templates.
+ * Base panel to abstract shared functionality of panels in this project.
  */
 public abstract class BasePanel extends Panel
 {

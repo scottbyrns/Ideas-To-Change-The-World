@@ -1,20 +1,19 @@
-package com.ideastobettertheworld;
+package com.ideastobettertheworld.panels.splash;
 
-import com.ideastobettertheworld.forms.PostIdeaForm;
 import com.ideastobettertheworld.panels.BasePanel;
 import org.apache.wicket.model.IModel;
 
 /**
- *
+ * Search box panel.
  */
-public class PostIdeaPanel extends BasePanel
+public class SearchBoxPanel extends BasePanel
 {
-    public PostIdeaPanel(String id)
+    public SearchBoxPanel(String id)
     {
         super(id);
     }
 
-    public PostIdeaPanel(String id, IModel<?> model)
+    public SearchBoxPanel(String id, IModel<?> model)
     {
         super(id, model);
     }
@@ -24,8 +23,6 @@ public class PostIdeaPanel extends BasePanel
      */
     public void setupPanel()
     {
-        add(
-                new PostIdeaForm("ideaForm")
-        );
+
     }
 }

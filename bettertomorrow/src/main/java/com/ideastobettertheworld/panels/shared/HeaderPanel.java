@@ -1,20 +1,19 @@
-package com.ideastobettertheworld;
+package com.ideastobettertheworld.panels.shared;
 
-import com.ideastobettertheworld.forms.PostIdeaForm;
 import com.ideastobettertheworld.panels.BasePanel;
 import org.apache.wicket.model.IModel;
 
 /**
- *
+ * Header of the website.
  */
-public class PostIdeaPanel extends BasePanel
+public class HeaderPanel extends BasePanel
 {
-    public PostIdeaPanel(String id)
+    public HeaderPanel(String id)
     {
         super(id);
     }
 
-    public PostIdeaPanel(String id, IModel<?> model)
+    public HeaderPanel(String id, IModel<?> model)
     {
         super(id, model);
     }
@@ -24,8 +23,6 @@ public class PostIdeaPanel extends BasePanel
      */
     public void setupPanel()
     {
-        add(
-                new PostIdeaForm("ideaForm")
-        );
+
     }
 }
