@@ -1,4 +1,4 @@
-package com.ideastobettertheworld;
+package com.ideastobettertheworld.deprecated;
 
 import com.ideas.api.client.services.ideas.IdeasService;
 import com.ideas.entities.ideas.Idea;

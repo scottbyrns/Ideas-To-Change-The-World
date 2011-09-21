@@ -1,4 +1,4 @@
-package com.ideastobettertheworld;
+package com.ideastobettertheworld.deprecated;
 
 import com.ideastobettertheworld.forms.PostIdeaForm;
 import com.ideastobettertheworld.panels.BasePanel;

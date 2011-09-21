@@ -3,6 +3,9 @@ package com.ideastobettertheworld.forms;
 import com.ideas.api.client.services.ideas.IdeasService;
 import com.ideas.entities.ideas.Idea;
 import com.ideastobettertheworld.BaseForm;
+import org.apache.wicket.ajax.AjaxRequestTarget;
+import org.apache.wicket.ajax.form.AjaxFormSubmitBehavior;
+import org.apache.wicket.ajax.markup.html.form.AjaxButton;
 import org.apache.wicket.markup.html.form.Form;
 import org.apache.wicket.markup.html.form.TextArea;
 import org.apache.wicket.markup.html.form.TextField;
@@ -23,6 +26,8 @@ public class PostIdeaForm extends BaseForm<Idea>
 
     private TextField<String> titleTextField;
     private TextArea<String> ideaTextArea;
+
+    private AjaxButton submitButton;
 
     public PostIdeaForm(String id)
     {
@@ -54,9 +59,11 @@ public class PostIdeaForm extends BaseForm<Idea>
         setTitleTextField(
                 new TextField<String>(
                         "title",
-                        getTitlePropertyModel()
+                        new Model<String>()
                 )
         );
+
+        getTitleTextField().setOutputMarkupId(true);
 
         add(
                 getTitleTextField()
@@ -72,12 +79,44 @@ public class PostIdeaForm extends BaseForm<Idea>
         setIdeaTextArea(
                 new TextArea<String>(
                         "ideaText",
-                        getIdeaTextPropertyModel()
+                        new Model<String>()
                 )
         );
 
+        getIdeaTextArea().setOutputMarkupId(true);
+
         add(
                 getIdeaTextArea()
+        );
+
+
+        setSubmitButton(new AjaxButton("shareButton"){
+            public void onSubmit(AjaxRequestTarget ajaxRequestTarget, Form<?> form)
+            {
+
+            }
+
+        });
+
+        add(
+                getSubmitButton()
+        );
+
+        add(
+                new AjaxFormSubmitBehavior(this, "onsubmit")
+                {
+                    protected void onSubmit(AjaxRequestTarget ajaxRequestTarget)
+                    {
+                        info("Submitted.");
+                        ajaxRequestTarget.addComponent(getTitleTextField());
+                        ajaxRequestTarget.addComponent(getIdeaTextArea());
+                    }
+
+                    protected void onError(AjaxRequestTarget ajaxRequestTarget)
+                    {
+                        info("Error.");
+                    }
+                }
         );
     }
 
@@ -192,5 +231,25 @@ public class PostIdeaForm extends BaseForm<Idea>
     public void setIdeaTextArea(TextArea<String> ideaTextArea)
     {
         this.ideaTextArea = ideaTextArea;
+    }
+
+    /**
+     * Get the submit button.
+     *
+     * @return The submit button.
+     */
+    public AjaxButton getSubmitButton()
+    {
+        return submitButton;
+    }
+
+    /**
+     * Set the submit button.
+     *
+     * @param submitButton The submit button.
+     */
+    public void setSubmitButton(AjaxButton submitButton)
+    {
+        this.submitButton = submitButton;
     }
 }

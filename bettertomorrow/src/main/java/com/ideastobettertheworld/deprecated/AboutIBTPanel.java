@@ -1,4 +1,4 @@
-package com.ideastobettertheworld;
+package com.ideastobettertheworld.deprecated;
 
 import com.ideastobettertheworld.panels.BasePanel;
 import org.apache.wicket.markup.html.basic.Label;

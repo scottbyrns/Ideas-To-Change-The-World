@@ -1,0 +1,30 @@
+/**
+ * Main CSS shared across the entire applicaiton.
+ */
+
+body
+{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #FAFAFA;
+    padding-left:15%;
+    padding-right:15%;
+}
+
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+div#about-ibt
+{
+    width: 100%;
+    height: 30px;
+    background-color: #3E78B3;
+    padding: 5px;
+    color: #FFFFFF;
+}
+

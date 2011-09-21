@@ -1,5 +1,6 @@
 package com.ideastobettertheworld.panels.splash;
 
+import com.ideastobettertheworld.forms.PostIdeaForm;
 import com.ideastobettertheworld.panels.BasePanel;
 import org.apache.wicket.model.IModel;
 
@@ -24,6 +25,8 @@ public class YourIdeaPanel extends BasePanel
     @Override
     public void setupPanel()
     {
-        //To change body of implemented methods use File | Settings | File Templates.
+        add(
+                new PostIdeaForm("idea-form")
+        );
     }
 }
