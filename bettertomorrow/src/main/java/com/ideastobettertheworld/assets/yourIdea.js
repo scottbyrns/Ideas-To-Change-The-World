@@ -204,6 +204,18 @@
             handleShareButtonPressed : function ()
             {
 //                $("form", this.element)[0].submit();
+                $(this.element).animate({
+                    marginTop: "-500px",
+                    opacity: 0
+                }, function () {
+                    $(this.element).hide()
+                    this.sendMessage("idea-submitted");
+                }.bind(this));
+            },
+
+            destroyWidget: function ()
+            {
+                this.element.innerHTML = "";
             },
 
             handleMessage : function (message)
@@ -215,6 +227,11 @@
                 if (message == "search-bar-blur")
                 {
                     this.controller.stopFading();
+                }
+
+                if (message == "idea-submitted")
+                {
+                    this.controller.destroyWidget();
                 }
             }
     	},

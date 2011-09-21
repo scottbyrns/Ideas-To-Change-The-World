@@ -93,7 +93,20 @@ public class PostIdeaForm extends BaseForm<Idea>
         setSubmitButton(new AjaxButton("shareButton"){
             public void onSubmit(AjaxRequestTarget ajaxRequestTarget, Form<?> form)
             {
+                info("Button Clicked.");
 
+                ajaxRequestTarget.addComponent(getTitleTextField());
+                ajaxRequestTarget.addComponent(getIdeaTextArea());
+
+                getIdeaModel().getObject().setIdeaText(
+                        getIdeaTextArea().getModelObject()
+                );
+
+                getIdeaModel().getObject().setTitle(
+                        getTitleTextField().getModelObject()
+                );
+
+                new IdeasService().createIdea(getIdeaModel().getObject());
             }
 
         });
@@ -110,6 +123,14 @@ public class PostIdeaForm extends BaseForm<Idea>
                         info("Submitted.");
                         ajaxRequestTarget.addComponent(getTitleTextField());
                         ajaxRequestTarget.addComponent(getIdeaTextArea());
+
+                        getIdeaModel().getObject().setIdeaText(
+                                getIdeaTextArea().getModelObject()
+                        );
+
+                        getIdeaModel().getObject().setTitle(
+                                getTitleTextField().getModelObject()
+                        );
                     }
 
                     protected void onError(AjaxRequestTarget ajaxRequestTarget)
@@ -125,7 +146,16 @@ public class PostIdeaForm extends BaseForm<Idea>
      */
     protected void onSubmit()
     {
-        Idea idea = getModelObject();
+
+        getIdeaModel().getObject().setIdeaText(
+                getIdeaTextArea().getModelObject()
+        );
+
+        getIdeaModel().getObject().setTitle(
+                getTitleTextField().getModelObject()
+        );
+
+        Idea idea = getIdeaModel().getObject();
 
         new IdeasService().createIdea(idea);
     }
