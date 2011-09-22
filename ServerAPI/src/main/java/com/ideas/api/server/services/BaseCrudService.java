@@ -1,6 +1,6 @@
 package com.ideas.api.server.services;
 
-import com.ideas.persistance.DynamicModelDAO;
+import com.ideas.persistence.DynamicModelDAO;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

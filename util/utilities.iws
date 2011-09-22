@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32f6948d-6927-4d71-81b4-192adaaaf7f5" name="Default" comment="" />
-    <ignored path="api-client.iws" />
+    <list default="true" id="502fd653-c304-4039-b31e-c2e51efb9523" name="Default" comment="" />
+    <ignored path="utilities.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,47 +19,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIResponse.java" line="75" class="com.ideas.api.client.APIResponse" package="com.ideas.api.client">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIResponse.java" line="77" class="com.ideas.api.client.APIResponse" package="com.ideas.api.client">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIResponse.java" line="33" class="com.ideas.api.client.APIResponse" package="com.ideas.api.client">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -96,86 +55,95 @@
     <ui_properties />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="api-client" />
+    <favorites_list name="utilities" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Sex.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/users/Sex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="39" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/users/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="41" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Username.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/users/Username.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="45" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+            <state line="8" column="17" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdeaMethods.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/ideas/IdeaMethods.java">
+      <file leaf-file-name="idea.hbm.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/ideas/entities/ideas/idea.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdeasService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/ideas/IdeasService.java">
+      <file leaf-file-name="Ideas.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/ideas/Ideas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="46" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.0">
+            <state line="13" column="31" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="APIClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIClient.java">
+      <file leaf-file-name="Component.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/Component.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="0" selection-start="3322" selection-end="3322" vertical-scroll-proportion="0.0">
+            <state line="7" column="22" selection-start="135" selection-end="159" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/BaseService.java">
+      <file leaf-file-name="ComponentType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/ComponentType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+            <state line="7" column="50" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="APIRequest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIRequest.java">
+      <file leaf-file-name="Document.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/Document.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="55" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
+            <state line="8" column="45" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestIdeasService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ideas/TestIdeasService.java">
+      <file leaf-file-name="OrderedComponent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/OrderedComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.7518248">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/RequestType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="8" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="APIResponse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+            <state line="7" column="53" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,16 +163,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/BaseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/IdeasService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideas/api/client/RequestType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/ideas/IdeaMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/utils/JSONObjectMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/ComponentType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/Document.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/OrderedComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/entities/ideas/Idea.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/entities/users/Sex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/entities/users/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/entities/users/Username.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ideas/TestIdeasService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/ideas/IdeasService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideas/entities/ideas/Ideas.java" />
       </list>
     </option>
   </component>
@@ -228,8 +197,22 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="api-client" />
+          <option name="myItemId" value="Ideas To Change The World - Utils" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Ideas To Change The World - Utils" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -272,31 +255,128 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api-client" />
+              <option name="myItemId" value="utilities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api-client" />
+              <option name="myItemId" value="utilities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api-client" />
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ideas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ideas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ideas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ideas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="MavenSettings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -306,85 +386,16 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.TestIdeasService.testGetIdeas">
-    <configuration default="false" name="TestIdeasService.testRequestURL" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="api-client" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ideas" />
-      <option name="MAIN_CLASS_NAME" value="com.ideas.TestIdeasService" />
-      <option name="METHOD_NAME" value="testRequestURL" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54592" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestIdeasService" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="api-client" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ideas" />
-      <option name="MAIN_CLASS_NAME" value="com.ideas.TestIdeasService" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestIdeasService.testGetIdeas" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="api-client" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ideas" />
-      <option name="MAIN_CLASS_NAME" value="com.ideas.TestIdeasService" />
-      <option name="METHOD_NAME" value="testGetIdeas" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63494" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ideas.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/ideas/entities/documents" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -506,11 +517,7 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestIdeasService.testRequestURL" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestIdeasService" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestIdeasService.testGetIdeas" />
-    </list>
+    <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -535,9 +542,9 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32f6948d-6927-4d71-81b4-192adaaaf7f5" name="Default" comment="" />
-      <created>1316269737239</created>
-      <updated>1316269737239</updated>
+      <changelist id="502fd653-c304-4039-b31e-c2e51efb9523" name="Default" comment="" />
+      <created>1316233458409</created>
+      <updated>1316233458409</updated>
     </task>
     <servers />
   </component>
@@ -551,16 +558,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3491088" sideWeight="0.67256635" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3491088" sideWeight="0.67146015" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24953903" sideWeight="0.67256635" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24953903" sideWeight="0.67146015" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32853982" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -597,56 +603,71 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/ideas/Idea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" />
+        <state line="7" column="41" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/ideas/IdeaMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/utils/JSONObjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" />
+        <state line="28" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/ideas/IdeasService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/users/Sex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="46" selection-start="2232" selection-end="2232" vertical-scroll-proportion="0.0" />
+        <state line="7" column="39" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/users/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="3322" selection-end="3322" vertical-scroll-proportion="0.0" />
+        <state line="7" column="41" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/services/BaseService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/users/Username.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" />
+        <state line="7" column="45" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/ideas/Ideas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="55" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ideas/TestIdeasService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.7518248">
+        <state line="13" column="31" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/RequestType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" />
+        <state line="7" column="22" selection-start="135" selection-end="159" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/api/client/APIResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/ComponentType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" />
+        <state line="7" column="50" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="45" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideas/entities/documents/OrderedComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="53" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/ideas/entities/ideas/idea.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

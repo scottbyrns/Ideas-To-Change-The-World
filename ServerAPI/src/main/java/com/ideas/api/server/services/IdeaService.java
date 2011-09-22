@@ -1,13 +1,12 @@
 package com.ideas.api.server.services;
 
 import com.ideas.entities.ideas.Idea;
-import com.ideas.persistance.IdeaDAO;
-import com.ideas.utils.HibernateUtil;
-import org.hibernate.Session;
+import com.ideas.entities.ideas.Ideas;
+import com.ideas.persistence.IdeaDAO;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
-import java.util.UUID;
 
 /**
  * Service to provide a crud interface to ideas.
@@ -44,6 +43,8 @@ import java.util.UUID;
 public class IdeaService extends BaseService
 {
 
+    @Autowired
+    IdeaDAO ideaDao;
 
     /**
      * Create a document.
@@ -65,8 +66,8 @@ public class IdeaService extends BaseService
         {
             Idea idea = (Idea)getObjectMapper().readValue(data, Idea.class);
 
-            IdeaDAO ideaDAO = new IdeaDAO();
-            idea = ideaDAO.saveIdea(idea);
+//            IdeaDAO ideaDAO = new IdeaDAO();
+            idea = ideaDao.saveIdea(idea);
 
             return getObjectMapper().writeValueAsString(idea);
         }
@@ -86,8 +87,8 @@ public class IdeaService extends BaseService
     @Path("/get/{id}")
     public String get(@PathParam("id") String id)
     {
-        IdeaDAO ideaDAO = new IdeaDAO();
-        Idea idea = ideaDAO.getById(Long.valueOf(id));
+//        IdeaDAO ideaDAO = new IdeaDAO();
+        Idea idea = ideaDao.getById(Long.valueOf(id));
 
         try
         {
@@ -100,4 +101,28 @@ public class IdeaService extends BaseService
         }
     }
 
+    /**
+     * Get the latest ideas
+     *
+     * @param count Number of latest ideas to get.
+     * @return The latest ideas.
+     */
+    @GET
+    @Path("/latest/{count}")
+    public String getIdeas(@PathParam("count") String count)
+    {
+        System.out.println("Get Latest");
+
+        Ideas ideas = ideaDao.getRecentIdeas(Integer.valueOf(count));
+
+        try
+        {
+            return getObjectMapper().writeValueAsString(ideas);
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+            return e.getLocalizedMessage();
+        }
+    }
 }

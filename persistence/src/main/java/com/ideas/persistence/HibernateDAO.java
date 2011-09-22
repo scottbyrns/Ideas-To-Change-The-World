@@ -39,7 +39,7 @@ public class HibernateDAO<LoadType>
     {
         getSession().beginTransaction();
         Serializable output = getSession().save(object);
-        getSession().getTransaction().commit();
+//        getSession().getTransaction().commit();
 
         return output;
     }
@@ -48,7 +48,7 @@ public class HibernateDAO<LoadType>
     {
         getSession().beginTransaction();
         LoadType loadedObject = (LoadType)getSession().get(getLoadClass(), id);
-        getSession().getTransaction().commit();
+//        getSession().getTransaction().commit();
         return loadedObject;
     }
 

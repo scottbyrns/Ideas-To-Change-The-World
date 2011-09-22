@@ -9,6 +9,7 @@ import javax.persistence.*;
 /**
  * Data access object to wrap the Idea object.
  */
+@Repository (value = "ideaDao")
 public class IdeaDAO extends HibernateDAO<Idea>
 {
 
@@ -51,8 +52,8 @@ public class IdeaDAO extends HibernateDAO<Idea>
 
         System.out.println(entityManager == null);
 
-        Query query = entityManager.createQuery("SELECT m FROM Ideas m");
-        System.out.println(query.toString());
+        Query query = entityManager.createQuery("SELECT m FROM Idea m");
+
 
         Ideas ideas = new Ideas();
         ideas.setIdeaList(

@@ -14,7 +14,8 @@
     <properties>
         <org.springframework.version>3.0.5.RELEASE</org.springframework.version>
 
-        <utilities.version>1.0</utilities.version>
+        <utilities.version>1.02</utilities.version>
+        <persistence.version>1.01</persistence.version>
     </properties>
 
 
@@ -187,6 +188,12 @@
             <version>${utilities.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.ideas</groupId>
+            <artifactId>persistence</artifactId>
+            <version>${persistence.version}</version>
+        </dependency>
+
 
         <!--
            Persistence Dependencies
@@ -281,7 +288,27 @@
                     <warFile>${project.basedir}/target/${project.build.finalName}.war</warFile>
                 </configuration>
             </plugin>
-
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.24</version>
+                <configuration>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <port>8081</port>
+                            <maxIdleTime>60000</maxIdleTime>
+                        </connector>
+                    </connectors>
+                </configuration>
+            </plugin>
         </plugins>
 
     </build>

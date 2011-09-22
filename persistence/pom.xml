@@ -7,7 +7,7 @@
     <groupId>com.ideas</groupId>
     <packaging>jar</packaging>
     <artifactId>persistence</artifactId>
-    <version>1.0</version>
+    <version>1.01</version>
 
 
     <!-- Shared version number properties -->

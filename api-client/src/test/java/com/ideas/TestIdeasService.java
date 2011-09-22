@@ -2,6 +2,7 @@ package com.ideas;
 
 import com.ideas.api.client.services.ideas.IdeasService;
 import com.ideas.entities.ideas.Idea;
+import com.ideas.entities.ideas.Ideas;
 import org.junit.Test;
 
 import java.util.UUID;
@@ -78,5 +79,20 @@ public class TestIdeasService
                 createdIdea.getTitle()
         );
 
+    }
+
+    @Test
+    public void testGetIdeas() throws Exception
+    {
+        IdeasService service = new IdeasService();
+        Ideas ideas = service.getLatest(5);
+
+        Idea idea = service.getIdeaById(1);
+
+        assertEquals(
+                "Asserting that the ID of the returned idea is equal to the ID requested.",
+                1L,
+                idea.getId()
+        );
     }
 }

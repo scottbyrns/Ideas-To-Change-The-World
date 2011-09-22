@@ -5,9 +5,11 @@ import com.ideas.api.client.APIResponse;
 import com.ideas.api.client.RequestType;
 import com.ideas.api.client.services.BaseService;
 import com.ideas.entities.ideas.Idea;
+import com.ideas.entities.ideas.Ideas;
 import com.ideas.utils.JSONObjectMapper;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  * Client service for interfacing with the Ideas endpoints of the server api.
@@ -66,4 +68,25 @@ public class IdeasService extends BaseService
         return (Idea) apiResponse.getResponseEntity(Idea.class);
     }
 
+    /**
+     * Get the latest ideas.
+     *
+     * @param numberOfLatestToGet
+     * @return
+     */
+    public Ideas getLatest (int numberOfLatestToGet)
+    {
+        APIRequest apiRequest = createAPIRequest();
+
+        apiRequest.setRequestType(RequestType.GET);
+        apiRequest.setRequestUrl(IdeaMethods.GET_LATEST);
+        apiRequest.addRequestParameter(
+                "count",
+                Long.toString(numberOfLatestToGet)
+        );
+
+        APIResponse apiResponse = getAPIClient().<Ideas>makeRequest(apiRequest);
+
+        return (Ideas) apiResponse.getResponseEntity(Ideas.class);
+    }
 }
