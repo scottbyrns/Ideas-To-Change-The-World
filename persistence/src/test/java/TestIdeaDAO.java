@@ -32,6 +32,8 @@ public class TestIdeaDAO  extends AbstractTransactionalJUnit4SpringContextTests
 
     /**
      * Test creating ideas.
+     *
+     * @TODO Actually test that the idea is saved.
      */
     @Test
     public void testCreateIdeas()

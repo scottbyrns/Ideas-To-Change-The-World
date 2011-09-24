@@ -48,7 +48,7 @@ public class IdeaDAO extends HibernateDAO<Idea>
      */
     public Ideas getRecentIdeas (int numberOfIdeas)
     {
-        Query query = getEntityManager().createQuery("SELECT idea FROM Idea idea");
+        Query query = getEntityManager().createQuery("SELECT idea FROM Idea idea ORDER BY idea.id desc");
         query.setMaxResults(numberOfIdeas);
 
         Ideas ideas = new Ideas();
