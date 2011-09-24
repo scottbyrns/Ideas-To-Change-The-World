@@ -46,7 +46,8 @@
 		<slf4j.version>1.5.8</slf4j.version>
 		<log4j.version>1.2.14</log4j.version>
 
-        <api-client.version>1.01</api-client.version>
+        <api-client.version>1.04</api-client.version>
+        <persistence.version>1.04</persistence.version>
 	</properties>
 	<dependencies>
 
@@ -54,6 +55,19 @@
             <groupId>com.ideas</groupId>
             <artifactId>api-client</artifactId>
             <version>${api-client.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.ideas</groupId>
+                    <artifactId>persistence</artifactId>
+                </exclusion>
+            </exclusions>
+
+        </dependency>
+
+        <dependency>
+            <groupId>com.ideas</groupId>
+            <artifactId>persistence</artifactId>
+            <version>${persistence.version}</version>
         </dependency>
 
         <dependency>
@@ -168,7 +182,7 @@
                 <artifactId>tomcat-maven-plugin</artifactId>
                 <version>1.0-beta-1</version>
                 <configuration>
-                    <port>8080</port>
+                    <port>8082</port>
                     <path>/</path>
                     <warFile>${project.basedir}/target/${project.build.finalName}.war</warFile>
                 </configuration>

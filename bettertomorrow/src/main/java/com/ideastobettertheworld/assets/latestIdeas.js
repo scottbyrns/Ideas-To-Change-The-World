@@ -1,29 +1,22 @@
 	LiveWidgets.addWidget({
-    	name: 'next-steps',
+    	name: 'latest-ideas',
     	model: {
 
     	},
     	controller: {
             handleMessage: function (message)
             {
-                if(message == "idea-submitted")
+                console.log("Message Recieved");
+                console.log(message);
+                if(message == "show-latest-ideas")
                 {
                     $(this.element).show().css({
                         opacity: 0,
                         overflow: "hidden"
                     }).animate({
-                        height: "300px",
+                        height: "90%",
                         opacity: 1
                     }, 300);
-                }
-                if (message == "show-latest-ideas")
-                {
-                    $(this.element).animate({
-                        height: "0px",
-                        opacity: 0
-                    }, 300, function () {
-                        $(this.element).hide();
-                    }.bind(this));
                 }
             }
     	},

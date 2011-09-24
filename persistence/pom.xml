@@ -7,14 +7,14 @@
     <groupId>com.ideas</groupId>
     <packaging>jar</packaging>
     <artifactId>persistence</artifactId>
-    <version>1.03</version>
+    <version>1.04</version>
 
 
     <!-- Shared version number properties -->
     <properties>
         <org.springframework.version>3.0.5.RELEASE</org.springframework.version>
 
-        <utilities.version>1.02</utilities.version>
+        <utilities.version>1.04</utilities.version>
     </properties>
 
 

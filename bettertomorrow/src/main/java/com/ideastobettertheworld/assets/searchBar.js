@@ -82,6 +82,11 @@
                 {
                     this.controller.startFading();
                 }
+
+                if (message == "show-latest-ideas")
+                {
+                    this.controller.startFading();
+                }
             }
     	},
     	constructor: function () {

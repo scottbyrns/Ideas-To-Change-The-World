@@ -2,6 +2,7 @@ package com.ideastobettertheworld;
 
 import com.ideas.api.client.services.ideas.IdeasService;
 import com.ideastobettertheworld.panels.shared.HeaderPanel;
+import com.ideastobettertheworld.panels.splash.LatestIdeasPanel;
 import com.ideastobettertheworld.panels.splash.NextStepsPanel;
 import com.ideastobettertheworld.panels.splash.SearchBoxPanel;
 import com.ideastobettertheworld.panels.splash.YourIdeaPanel;
@@ -52,6 +53,10 @@ public class HomePage extends WebPage
 
         add(
                 new SearchBoxPanel("search-box")
+        );
+
+        add(
+                new LatestIdeasPanel("latest-ideas")
         );
 
     }

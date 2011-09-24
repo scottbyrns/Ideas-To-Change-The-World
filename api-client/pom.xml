@@ -4,13 +4,13 @@
     <groupId>com.ideas</groupId>
     <artifactId>api-client</artifactId>
     <packaging>jar</packaging>
-    <version>1.02</version>
+    <version>1.04</version>
     <name>api-client</name>
     <url>http://maven.apache.org</url>
 
     <properties>
 
-        <utilities.version>1.02</utilities.version>
+        <utilities.version>1.04</utilities.version>
 
     </properties>
 

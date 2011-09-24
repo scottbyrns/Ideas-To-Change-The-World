@@ -20,6 +20,21 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/forms/PostIdeaForm.java" line="108" class="com.ideastobettertheworld.forms.PostIdeaForm$1" package="com.ideastobettertheworld.forms">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -60,32 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchBoxPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/SearchBoxPanel.java">
+      <file leaf-file-name="LatestIdeasPanel.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/LatestIdeasPanel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="16" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YourIdeaPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/YourIdeaPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YourIdeaPanel.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/YourIdeaPanel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="66" selection-start="709" selection-end="709" vertical-scroll-proportion="-12.571428">
+            <state line="1" column="16" selection-start="32" selection-end="42" vertical-scroll-proportion="-0.5714286">
               <folding />
             </state>
           </provider>
@@ -94,7 +87,34 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="36" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.0">
+            <state line="104" column="49" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeaderPanel.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/shared/HeaderPanel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="35" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.5714286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="latestIdeas.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/latestIdeas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="48" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controls.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/controls.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="51" selection-start="473" selection-end="490" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,45 +123,43 @@
       <file leaf-file-name="yourIdea.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/yourIdea.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="206" column="54" selection-start="6623" selection-end="6623" vertical-scroll-proportion="-13.076923">
+            <state line="236" column="0" selection-start="7491" selection-end="7629" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.java">
+      <file leaf-file-name="searchBar.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/searchBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1141" selection-end="1206" vertical-scroll-proportion="0.0">
+            <state line="88" column="17" selection-start="2558" selection-end="2558" vertical-scroll-proportion="0.7209302">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ideas.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/my/Ideas.java">
+      <file leaf-file-name="NextStepsPanel.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/NextStepsPanel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="26" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ideas.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/my/Ideas.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="26" selection-start="453" selection-end="453" vertical-scroll-proportion="-6.285714">
+            <state line="10" column="0" selection-start="168" selection-end="589" vertical-scroll-proportion="-5.714286">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostIdeaForm.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/forms/PostIdeaForm.java">
+      <file leaf-file-name="nextSteps.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/nextSteps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="47" selection-start="3099" selection-end="3099" vertical-scroll-proportion="0.6666667">
+            <state line="18" column="50" selection-start="533" selection-end="552" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestHomePage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ideastobettertheworld/TestHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="41" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,22 +179,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/searchBar.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/SearchBoxPanel.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/SearchBoxPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/LatestIdeasPanel.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ideastobettertheworld/TestHomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/MyIdeas.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/MyIdeas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/WicketApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/my/Ideas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/my/Ideas.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/YourIdeaPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/YourIdeaPanel.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/yourIdea.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/models/LatestIdeasDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/LatestIdeasDataView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/LatestIdeasPanel.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/controls.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/latestIdeas.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/NextStepsPanel.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/nextSteps.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/shared/HeaderPanel.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/forms/PostIdeaForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/yourIdea.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/searchBar.js" />
       </list>
     </option>
   </component>
@@ -285,9 +303,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Favorites" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -347,36 +365,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bettertomorrow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bettertomorrow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -530,37 +518,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bettertomorrow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bettertomorrow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ideastobettertheworld" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forms" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -604,15 +562,15 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="preferences.editor" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Maven.bettertomorrow [org.codehaus.mojo:tomcat-maven-plugin:1.0-beta-1:run]">
     <configuration default="false" name="bettertomorrow [org.codehaus.mojo:tomcat-maven-plugin:1.0-beta-1:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
@@ -840,34 +798,55 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1676" height="1024" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39870688" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22311002" sideWeight="0.6006637" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22618316" sideWeight="0.67256635" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2249539" sideWeight="0.6006637" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32743362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2249539" sideWeight="0.67256635" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32743362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Facebook Chat" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Facebook Chat" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -902,6 +881,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="atlassian-ide-plugin-workspace">
     <option name="bambooConfiguration">
       <BambooWorkspaceConfiguration>
@@ -922,122 +905,118 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/models/LatestIdeasDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="60" selection-end="61" vertical-scroll-proportion="-0.46153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ideastobettertheworld/TestHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="93" selection-start="0" selection-end="975" vertical-scroll-proportion="-13.142858">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/WicketApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="42" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
+        <state line="45" column="10" selection-start="1111" selection-end="1111" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/SearchBoxPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/LatestIdeasDataView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+        <state line="29" column="69" selection-start="938" selection-end="938" vertical-scroll-proportion="0.62254024">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/my/Ideas.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ideas/api-client/1.04/api-client-1.04.jar!/com/ideas/api/client/services/ideas/IdeasService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="453" selection-end="453" vertical-scroll-proportion="-6.285714">
+        <state line="11" column="41" selection-start="430" selection-end="430" vertical-scroll-proportion="0.24719101">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/my/Ideas.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ideas/api-client/1.04/api-client-1.04.jar!/com/ideas/api/client/APIResponse.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/YourIdeaPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1141" selection-end="1206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/YourIdeaPanel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="66" selection-start="709" selection-end="709" vertical-scroll-proportion="-12.571428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket/1.4.18/wicket-1.4.18.jar!/org/apache/wicket/ajax/form/AjaxFormSubmitBehavior.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="380" selection-end="380" vertical-scroll-proportion="0.20729366">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/yourIdea.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="54" selection-start="6623" selection-end="6623" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket/1.4.18/wicket-1.4.18.jar!/org/apache/wicket/markup/html/form/TextArea.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="394" selection-end="394" vertical-scroll-proportion="0.2303263">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ideas/utilities/1.01/utilities-1.01.jar!/com/ideas/entities/ideas/Idea.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.12793177">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="36" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="714" selection-end="714" vertical-scroll-proportion="0.40449437">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/forms/PostIdeaForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="47" selection-start="3099" selection-end="3099" vertical-scroll-proportion="0.6666667">
+        <state line="159" column="35" selection-start="4347" selection-end="4347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/HomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="67" selection-start="1432" selection-end="1432" vertical-scroll-proportion="-17.714285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/LatestIdeasPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="32" selection-end="42" vertical-scroll-proportion="-0.5714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/splash/NextStepsPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="168" selection-end="589" vertical-scroll-proportion="-5.714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/panels/shared/HeaderPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="35" selection-start="50" selection-end="50" vertical-scroll-proportion="-0.5714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="49" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/latestIdeas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="48" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ideastobettertheworld/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="41" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/controls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="51" selection-start="473" selection-end="490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/nextSteps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="50" selection-start="533" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/yourIdea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="0" selection-start="7491" selection-end="7629" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ideastobettertheworld/assets/searchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="17" selection-start="2558" selection-end="2558" vertical-scroll-proportion="0.7209302">
           <folding />
         </state>
       </provider>
