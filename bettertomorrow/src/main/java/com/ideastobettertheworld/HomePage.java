@@ -2,10 +2,7 @@ package com.ideastobettertheworld;
 
 import com.ideas.api.client.services.ideas.IdeasService;
 import com.ideastobettertheworld.panels.shared.HeaderPanel;
-import com.ideastobettertheworld.panels.splash.LatestIdeasPanel;
-import com.ideastobettertheworld.panels.splash.NextStepsPanel;
-import com.ideastobettertheworld.panels.splash.SearchBoxPanel;
-import com.ideastobettertheworld.panels.splash.YourIdeaPanel;
+import com.ideastobettertheworld.panels.splash.*;
 import org.apache.wicket.PageParameters;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.WebPage;
@@ -57,6 +54,10 @@ public class HomePage extends WebPage
 
         add(
                 new LatestIdeasPanel("latest-ideas")
+        );
+
+        add(
+                new SettingsPanel("settings")
         );
 
     }

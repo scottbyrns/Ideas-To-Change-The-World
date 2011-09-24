@@ -10,6 +10,8 @@
                 $(".latest-ideas-button", this.element).bind("click", this.controller.handleLatestIdeasButtonClick);
                 $(".share-your-ideas-button", this.element).bind("click", this.controller.handleShareButtonClick);
                 $(".search-button", this.element).bind("click", this.controller.handleShareButtonClick);
+
+                $(".settings-button", this.element).bind("click", this.controller.handleSettingsButtonClick);
     	    },
 
     	    handleLatestIdeasButtonClick: function ()
@@ -21,6 +23,12 @@
             handleShareButtonClick: function () {
                 console.log("Show idea share form.");
                 this.sendMessage("show-idea-share-form");
+            },
+
+            handleSettingsButtonClick: function ()
+            {
+                console.log("Show settings.");
+                this.sendMessage("show-settings");
             },
 
             handleMessage: function (message)
