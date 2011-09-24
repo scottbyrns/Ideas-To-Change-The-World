@@ -14,7 +14,7 @@
     <properties>
         <org.springframework.version>3.0.5.RELEASE</org.springframework.version>
 
-        <utilities.version>1.02</utilities.version>
+        <utilities.version>1.03</utilities.version>
     </properties>
 
 

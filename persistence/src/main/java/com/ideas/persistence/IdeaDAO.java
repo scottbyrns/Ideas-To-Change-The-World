@@ -14,7 +14,7 @@ public class IdeaDAO extends HibernateDAO<Idea>
 {
 
     @PersistenceContext(unitName = "idea")
-    EntityManager entityManager;
+    private EntityManager entityManager;
 
     /**
      * Save an idea.
@@ -24,7 +24,7 @@ public class IdeaDAO extends HibernateDAO<Idea>
      */
     public Idea saveIdea (Idea idea)
     {
-        save(idea).toString();
+        save(idea);
 
         return idea;
     }
@@ -41,19 +41,15 @@ public class IdeaDAO extends HibernateDAO<Idea>
     }
 
     /**
-     * Get recent ideas.
+     * Get recent ideas entered into the database.
      *
      * @param numberOfIdeas Number of recent ideas to get.
      * @return Recent ideas.
      */
     public Ideas getRecentIdeas (int numberOfIdeas)
     {
-        System.out.println("Get Recent Ideas.");
-
-        System.out.println(entityManager == null);
-
-        Query query = entityManager.createQuery("SELECT m FROM Idea m");
-
+        Query query = getEntityManager().createQuery("SELECT idea FROM Idea idea");
+        query.setMaxResults(numberOfIdeas);
 
         Ideas ideas = new Ideas();
         ideas.setIdeaList(
@@ -61,5 +57,25 @@ public class IdeaDAO extends HibernateDAO<Idea>
         );
 
         return ideas;
+    }
+
+    /**
+     * Get the entity manager.
+     *
+     * @return The entity manager.
+     */
+    public EntityManager getEntityManager()
+    {
+        return entityManager;
+    }
+
+    /**
+     * Set the entity manager.
+     *
+     * @param entityManager The entity manager.
+     */
+    public void setEntityManager(EntityManager entityManager)
+    {
+        this.entityManager = entityManager;
     }
 }
