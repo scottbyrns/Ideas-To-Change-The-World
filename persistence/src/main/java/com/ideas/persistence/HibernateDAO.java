@@ -2,6 +2,7 @@ package com.ideas.persistence;
 
 import com.ideas.utils.HibernateUtil;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
@@ -16,7 +17,7 @@ public class HibernateDAO<LoadType>
 
     public HibernateDAO()
     {
-        setSession(HibernateUtil.getSessionFactory().getCurrentSession());
+        setSession(HibernateUtil.getSessionFactory().openSession());
     }
 
     protected Session getSession()
@@ -39,7 +40,9 @@ public class HibernateDAO<LoadType>
     {
         getSession().beginTransaction();
         Serializable output = getSession().save(object);
-//        getSession().getTransaction().commit();
+
+        Transaction transaction = getSession().getTransaction();
+        transaction.commit();
 
         return output;
     }
@@ -48,7 +51,9 @@ public class HibernateDAO<LoadType>
     {
         getSession().beginTransaction();
         LoadType loadedObject = (LoadType)getSession().get(getLoadClass(), id);
-//        getSession().getTransaction().commit();
+
+        Transaction transaction = getSession().getTransaction();
+        transaction.commit();
         return loadedObject;
     }
 

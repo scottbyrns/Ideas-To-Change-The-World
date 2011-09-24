@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 /**
  * Test the Idea DAO
  */
-@SuppressWarnings(value = "true")
+//@SuppressWarnings(value = "true")
 @ContextConfiguration(locations = {"classpath:beans.xml"})
 @TransactionConfiguration(transactionManager = "txManager", defaultRollback = false)
 public class TestIdeaDAO  extends AbstractTransactionalJUnit4SpringContextTests
