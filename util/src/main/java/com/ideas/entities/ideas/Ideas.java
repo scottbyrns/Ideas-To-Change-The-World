@@ -1,25 +1,32 @@
 package com.ideas.entities.ideas;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by IntelliJ IDEA.
- * User: scott
- * Date: 9/20/11
- * Time: 11:18 PM
- * To change this template use File | Settings | File Templates.
+ * A collection of ideas.
  */
-public class Ideas
+public class Ideas implements Serializable
 {
     private List<Idea> ideaList;
 
-    public List<Idea> getIdeaList()
+    public List<Idea> getIdeaList ()
     {
         return ideaList;
     }
 
-    public void setIdeaList(List<Idea> ideaList)
+    public void setIdeaList (List<Idea> ideaList)
     {
         this.ideaList = ideaList;
+    }
+
+    /**
+     * Get the size of the ideas collection.
+     *
+     * @return The size of the ideas collection.
+     */
+    public int size ()
+    {
+        return getIdeaList().size();
     }
 }
