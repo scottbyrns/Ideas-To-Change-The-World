@@ -81,18 +81,28 @@ public class TestIdeasService
 
     }
 
+    /**
+     * Test getting latest ideas.
+     */
     @Test
-    public void testGetIdeas() throws Exception
+    public void testGetLatestIdeas()
     {
+        UUID uuid = UUID.randomUUID();
+        String ideaText = "Generated Idea Text : " + uuid.toString();
+
         IdeasService service = new IdeasService();
+        Idea idea = new Idea();
+        idea.setTitle("TestIdea");
+        idea.setIdeaText(ideaText);
+
+        service.createIdea(idea);
+
         Ideas ideas = service.getLatest(5);
 
-        Idea idea = service.getIdeaById(1);
-
         assertEquals(
-                "Asserting that the ID of the returned idea is equal to the ID requested.",
-                1L,
-                idea.getId()
+                "Asserting that the latest idea is the latest one added by the API.",
+                ideaText,
+                ideas.getIdeaList().get(0).getIdeaText()
         );
     }
 }
