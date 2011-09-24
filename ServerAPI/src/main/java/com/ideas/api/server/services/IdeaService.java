@@ -51,9 +51,8 @@ public class IdeaService extends BaseService
      *
      * @return The document.
      *
-     * @todo Use unique ID from mongo.
-     * @todo Handle exceptions
-     * @todo Handle null ideas.
+     * @TODO Handle exceptions
+     * @TODO Handle null ideas.
      */
     @POST
     @Path("/create")
@@ -61,13 +60,11 @@ public class IdeaService extends BaseService
     public String create(String data)
     {
 
-
         try
         {
             Idea idea = (Idea)getObjectMapper().readValue(data, Idea.class);
 
-//            IdeaDAO ideaDAO = new IdeaDAO();
-            idea = ideaDao.saveIdea(idea);
+            idea = getIdeaDao().saveIdea(idea);
 
             return getObjectMapper().writeValueAsString(idea);
         }
@@ -87,8 +84,8 @@ public class IdeaService extends BaseService
     @Path("/get/{id}")
     public String get(@PathParam("id") String id)
     {
-//        IdeaDAO ideaDAO = new IdeaDAO();
-        Idea idea = ideaDao.getById(Long.valueOf(id));
+
+        Idea idea = getIdeaDao().getById(Long.valueOf(id));
 
         try
         {
@@ -99,6 +96,7 @@ public class IdeaService extends BaseService
             e.printStackTrace();
             return e.getLocalizedMessage();
         }
+
     }
 
     /**
@@ -111,9 +109,10 @@ public class IdeaService extends BaseService
     @Path("/latest/{count}")
     public String getIdeas(@PathParam("count") String count)
     {
+
         System.out.println("Get Latest");
 
-        Ideas ideas = ideaDao.getRecentIdeas(Integer.valueOf(count));
+        Ideas ideas = getIdeaDao().getRecentIdeas(Integer.valueOf(count));
 
         try
         {
@@ -124,5 +123,16 @@ public class IdeaService extends BaseService
             e.printStackTrace();
             return e.getLocalizedMessage();
         }
+
+    }
+
+    /**
+     * Get the idea dao.
+     *
+     * @return The idea dao.
+     */
+    private IdeaDAO getIdeaDao()
+    {
+        return ideaDao;
     }
 }
