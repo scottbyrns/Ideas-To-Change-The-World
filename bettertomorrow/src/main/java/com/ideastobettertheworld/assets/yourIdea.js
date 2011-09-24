@@ -182,13 +182,21 @@
 
             },
 
+            showForm : function ()
+            {
+                $(this.element).css("marginTop", "15%").animate({
+                    height: "175px",
+                    opacity: 1
+                }, 300);
+            },
+
             startFading : function ()
             {
 
                 $(this.element).animate({
                     height: "0px",
                     opacity: 0
-                }, 500);
+                }, 300);
             },
 
             stopFading : function ()
@@ -197,7 +205,7 @@
                 $(this.element).animate({
                     height: "175px",
                     opacity: 1
-                }, 500);
+                }, 300);
 
             },
 
@@ -208,14 +216,13 @@
                     marginTop: "-500px",
                     opacity: 0
                 }, function () {
-                    $(this.element).hide()
                     this.sendMessage("idea-submitted");
                 }.bind(this));
             },
 
             destroyWidget: function ()
             {
-                this.element.innerHTML = "";
+//                this.element.innerHTML = "";
             },
 
             handleMessage : function (message)
@@ -237,6 +244,11 @@
                 if (message == "show-latest-ideas")
                 {
                     this.controller.startFading();
+                }
+
+                if (message == "show-idea-share-form")
+                {
+                    this.controller.showForm();
                 }
             }
     	},

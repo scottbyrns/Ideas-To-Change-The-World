@@ -59,7 +59,7 @@
                 $(this.element).animate({
                     marginTop: "0px",
                     opacity: 1
-                }, 500);
+                }, 300);
             },
 
             startFading : function ()
@@ -86,6 +86,11 @@
                 if (message == "show-latest-ideas")
                 {
                     this.controller.startFading();
+                }
+
+                if (message == "show-idea-share-form")
+                {
+                    this.controller.stopFading();
                 }
             }
     	},
