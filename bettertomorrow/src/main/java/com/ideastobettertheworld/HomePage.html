@@ -16,13 +16,23 @@
 
         <script src="resources/com.ideastobettertheworld.HomePage/assets/controls.js"></script>
         <script src="resources/com.ideastobettertheworld.HomePage/assets/latestIdeas.js"></script>
+        <script src="resources/com.ideastobettertheworld.HomePage/assets/mostLikedIdeas.js"></script>
         <script src="resources/com.ideastobettertheworld.HomePage/assets/settings.js"></script>
+        <script src="resources/com.ideastobettertheworld.HomePage/assets/sub-navigation.js"></script>
 
     </head>
 
     <body>
 
         <header data-widget="controls" data-group="homepage-inputs" wicket:id="header"></header>
+        <div data-widget="sub-navigation" data-group="homepage-inputs" class="sub-navigation">
+            <ul>
+                <li>Explore</li>
+                <li class="active">Latest</li>
+                <li>Trending</li>
+                <li>Search</li>
+            </ul>
+        </div>
 
         <div data-widget="your-idea" data-group="homepage-inputs" id="ideaBox" wicket:id="your-idea"></div>
 
@@ -31,6 +41,8 @@
         <div data-widget="search-bar" data-group="homepage-inputs" id="searchBox" wicket:id="search-box"></div>
 
         <div data-widget="latest-ideas" data-group="homepage-inputs" id="ideas-list-wrapper" wicket:id="latest-ideas"></div>
+
+        <div data-widget="most-liked-ideas" data-group="homepage-inputs" id="most-liked-ideas-list-wrapper" wicket:id="most-liked-ideas"></div>
 
         <div data-widget="settings" data-group="homepage-inputs" id="settings-panel" wicket:id="settings"></div>
 

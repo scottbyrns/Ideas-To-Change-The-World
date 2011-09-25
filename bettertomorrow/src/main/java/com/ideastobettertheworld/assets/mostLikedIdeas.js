@@ -1,25 +1,11 @@
 	LiveWidgets.addWidget({
-    	name: 'latest-ideas',
+    	name: 'most-liked-ideas',
     	model: {
 
     	},
     	controller: {
-    	    hidePanel: function ()
+    	    showPanel: function ()
     	    {
-                    /* Probably acts strange when scrolled and you dismiss. */
-                    $(this.element).css({
-                        overflow: "hidden"
-                    }).animate({
-                        height: "0%",
-                        opacity: 0
-                    }, 300);
-    	    },
-            handleMessage: function (message)
-            {
-                console.log("Message Recieved");
-                console.log(message);
-                if(message == "show-latest-ideas")
-                {
                     $(this.element).show().css({
                         marginTop: "50px",
                         opacity: 0,
@@ -32,6 +18,32 @@
                            overflow: "visible"
                         });
                     }.bind(this));
+    	    },
+
+    	    hidePanel: function ()
+    	    {
+                    /* Probably acts strange when scrolled and you dismiss. */
+                    $(this.element).css({
+                        overflow: "hidden"
+                    }).animate({
+                        height: "0%",
+                        opacity: 0
+                    }, 300);
+    	    },
+
+            handleMessage: function (message)
+            {
+                console.log("Message Recieved");
+                console.log(message);
+
+                if(message == "show-trending-ideas")
+                {
+                    this.controller.showPanel();
+                }
+
+                if(message == "show-latest-ideas")
+                {
+                    this.controller.hidePanel();
                 }
 
                 if (message == "show-idea-share-form")

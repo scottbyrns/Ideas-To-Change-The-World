@@ -8,17 +8,17 @@ import org.apache.wicket.markup.repeater.data.IDataProvider;
 import org.apache.wicket.model.CompoundPropertyModel;
 
 /**
- * @TODO javadoc
+ * Idea data view.
  */
-public class LatestIdeasDataView extends DataView<Idea>
+public class IdeasDataView extends DataView<Idea>
 {
 
-    public LatestIdeasDataView(String id, IDataProvider<Idea> ideaIDataProvider)
+    public IdeasDataView(String id, IDataProvider<Idea> ideaIDataProvider)
     {
         super(id, ideaIDataProvider);
     }
 
-    public LatestIdeasDataView(String id, IDataProvider<Idea> ideaIDataProvider, int itemsPerPage)
+    public IdeasDataView(String id, IDataProvider<Idea> ideaIDataProvider, int itemsPerPage)
     {
         super(id, ideaIDataProvider, itemsPerPage);
     }

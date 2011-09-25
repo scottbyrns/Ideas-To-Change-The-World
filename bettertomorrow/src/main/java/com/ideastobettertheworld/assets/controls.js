@@ -18,11 +18,18 @@
     	    {
     	        console.log("Show latest ideas.");
                 this.sendMessage("show-latest-ideas");
+                this.sendMessage("show-sub-navigation");
+
+                $("li", this.element).removeClass("active");
+                $(".latest-ideas-button", this.element).addClass("active");
     	    },
 
             handleShareButtonClick: function () {
                 console.log("Show idea share form.");
                 this.sendMessage("show-idea-share-form");
+
+                $("li", this.element).removeClass("active");
+                $(".share-your-ideas-button", this.element).addClass("active");
             },
 
             handleSettingsButtonClick: function ()

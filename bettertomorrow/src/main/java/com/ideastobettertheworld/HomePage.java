@@ -57,6 +57,10 @@ public class HomePage extends WebPage
         );
 
         add(
+                new MostLikedIdeasPanel("most-liked-ideas")
+        );
+
+        add(
                 new SettingsPanel("settings")
         );
 

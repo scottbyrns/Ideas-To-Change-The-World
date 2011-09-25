@@ -1,20 +1,21 @@
 package com.ideastobettertheworld.panels.splash;
 
 import com.ideastobettertheworld.models.LatestIdeasDataProvider;
+import com.ideastobettertheworld.models.MostLikedIdeasDataProvider;
 import com.ideastobettertheworld.panels.BasePanel;
 import org.apache.wicket.model.IModel;
 
 /**
- * Latest ideas.
+ * Most liked ideas panel.
  */
-public class LatestIdeasPanel extends BasePanel
+public class MostLikedIdeasPanel extends BasePanel
 {
-    public LatestIdeasPanel(String id)
+    public MostLikedIdeasPanel(String id)
     {
         super(id);
     }
 
-    public LatestIdeasPanel(String id, IModel<?> model)
+    public MostLikedIdeasPanel(String id, IModel<?> model)
     {
         super(id, model);
     }
@@ -26,7 +27,7 @@ public class LatestIdeasPanel extends BasePanel
     {
         add(new IdeasDataView(
                 "rows",
-                new LatestIdeasDataProvider()
+                new MostLikedIdeasDataProvider()
         ));
     }
 }
