@@ -48,6 +48,29 @@
         </property>
     </bean>
 
+    <bean id="likesDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <bean id="likesEntityManager" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="likesDataSource"/>
+        <property name="persistenceUnitName" value="like"/>
+        <property name="jpaDialect">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
+        </property>
+
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+                <property name="database" value="${database}"/>
+                <property name="showSql" value="false"/>
+                <property name="databasePlatform" value="org.hibernate.dialect.MySQL5Dialect" />
+            </bean>
+        </property>
+    </bean>
+
     <bean id="txManager"
           class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="entityManagerFactory" ref="ideasEntityManager"/>
@@ -55,69 +78,13 @@
         <qualifier value="ideas" />
     </bean>
 
+    <bean id="likeTransactionManager"
+          class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="likesEntityManager"/>
+        <property name="dataSource" ref="likesDataSource"/>
+        <qualifier value="likes" />
+    </bean>
+
     <context:component-scan base-package="com.ideas">
     </context:component-scan>
-
-    <!--<bean id="ideasDAO" class="com.ideas.persistence.IdeaDAO">-->
-    <!--<property name="entityManager" ref="ideaEntityManager" />-->
-    <!--</bean>-->
-
-    <!--<bean id="ideaDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
-    <!--<property name="driverClassName" value="com.mysql.jdbc.Driver"/>-->
-    <!--<property name="url" value="jdbc:mysql://localhost:3306/ideas"/>-->
-    <!--<property name="username" value="root"/>-->
-    <!--<property name="password" value=""/>-->
-    <!--</bean>-->
-
-    <!--<bean id="ideaTxManager"-->
-    <!--class="org.springframework.orm.jpa.JpaTransactionManager">-->
-    <!--<property name="entityManagerFactory" ref="ideaEntityManager"/>-->
-    <!--<property name="dataSource" ref="ideaDataSource"/>-->
-    <!--<qualifier value="idea"/>-->
-    <!--</bean>-->
-
-    <!--<bean id="entityManagerFactory"-->
-    <!--class="org.springframework.orm.jpa.LocalEntityManagerFactoryBean" />-->
-
-    <!--<bean class="org.springframework.orm.jpa.JpaTransactionManager">-->
-    <!--<property name="entityManagerFactory" ref="entityManagerFactory" />-->
-    <!--</bean>-->
-
-    <!--<tx:annotation-driven transaction-manager="ideaTxManager"/>-->
-
-
-    <!--<bean id="ideaEntityManager" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">-->
-    <!--<property name="dataSource" ref="ideaDataSource"/>-->
-    <!--<property name="persistenceUnitName" value="idea"/>-->
-    <!--<property name="jpaDialect">-->
-    <!--<bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>-->
-    <!--</property>-->
-
-    <!--<property name="jpaVendorAdapter">-->
-    <!--<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">-->
-    <!--<property name="database" value="MYSQL"/>-->
-    <!--<property name="showSql" value="false"/>-->
-    <!--<property name="databasePlatform" value="org.hibernate.dialect.MySQL5Dialect"/>-->
-    <!--</bean>-->
-    <!--</property>-->
-
-    <!--</bean>-->
-
-    <!--<bean id="transactionManager" class="org.springframework.transaction.jta.JtaTransactionManager">-->
-    <!--<property name="transactionManager">-->
-    <!--<ref bean="ideaTxManager"/>-->
-    <!--</property>-->
-    <!--<property name="userTransaction">-->
-    <!--<ref bean="jbossUserTransaction"/>-->
-    <!--</property>-->
-    <!--</bean>-->
-
-    <!--<bean class="org.springframework.orm.jpa.JpaTransactionManager">-->
-    <!--<property name="entityManagerFactory" ref="entityManagerFactory"/>-->
-    <!--</bean>-->
-
-    <!--<context:annotation-config/>-->
-    <!--<bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>-->
-    <!--<bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />-->
-    <!--<context:component-scan base-package="com.ideas"/>-->
 </beans>

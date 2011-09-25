@@ -32,6 +32,7 @@
         <property name="hbm2ddl.auto">update</property>
 
         <mapping resource="com/ideas/entities/ideas/idea.hbm.xml"/>
+        <mapping resource="com/ideas/entities/ideas/like.hbm.xml"/>
 
     </session-factory>
 

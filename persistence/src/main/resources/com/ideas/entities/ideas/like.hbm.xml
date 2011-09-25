@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ideas.entities.ideas">
+
+    <class name="Like" table="Likes">
+        <id name="likeId" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="ideaId" type="long" column="ideaId"/>
+        <property name="userId" type="long" column="userId"/>
+    </class>
+
+</hibernate-mapping>
