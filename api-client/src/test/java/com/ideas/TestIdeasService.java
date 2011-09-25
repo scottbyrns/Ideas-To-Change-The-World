@@ -17,8 +17,6 @@ public class TestIdeasService
 
     /**
      * Test getting an idea by ID
-     *
-     * @throws Exception
      */
     @Test
     public void testGetIdeaById ()

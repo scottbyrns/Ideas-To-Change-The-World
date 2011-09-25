@@ -2,6 +2,7 @@ package com.ideas.persistence;
 
 import com.ideas.entities.ideas.Idea;
 import com.ideas.entities.ideas.Like;
+import com.ideas.entities.ideas.LikeCount;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -47,12 +48,18 @@ public class LikeDAO extends HibernateDAO<Like>
      * @param idea The idea to get the like count for.
      * @return The count of likes for the provided idea.
      */
-    public long getLikeCountForIdea (Idea idea)
+    public LikeCount getLikeCountForIdea (Idea idea)
     {
         Query query = getEntityManager().createQuery("SELECT count(*) FROM Idea as idea WHERE idea.id = :ideaId");
         query.setParameter("ideaId", idea.getId());
 
-        return query.getResultList().size();
+        LikeCount likeCount = new LikeCount();
+
+        likeCount.setCount(
+                query.getResultList().size()
+        );
+
+        return likeCount;
     }
 
     /**

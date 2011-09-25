@@ -1,5 +1,6 @@
 import com.ideas.entities.ideas.Idea;
 import com.ideas.entities.ideas.Like;
+import com.ideas.entities.ideas.LikeCount;
 import com.ideas.persistence.LikeDAO;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -47,12 +48,12 @@ public class TestLikeDAO extends AbstractTransactionalJUnit4SpringContextTests
     {
         Idea idea = new Idea();
         idea.setId(0);
-        long likeCount = getLikeDao().getLikeCountForIdea(idea);
+        LikeCount likeCount = getLikeDao().getLikeCountForIdea(idea);
 
         assertEquals(
                 "Asserting that the like count for the idea with ID 0 is 1",
                 1L,
-                likeCount
+                likeCount.getCount()
         );
     }
 
