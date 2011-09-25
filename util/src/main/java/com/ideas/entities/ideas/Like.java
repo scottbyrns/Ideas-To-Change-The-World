@@ -1,9 +1,11 @@
 package com.ideas.entities.ideas;
 
+import java.io.Serializable;
+
 /**
  * Idea like.
  */
-public class Like
+public class Like implements Serializable
 {
     private long likeId;
     private long userId;

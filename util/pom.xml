@@ -6,7 +6,7 @@
 
     <groupId>com.ideas</groupId>
     <artifactId>utilities</artifactId>
-    <version>1.06</version>
+    <version>1.08</version>
     <packaging>jar</packaging>
     <name>Ideas To Change The World - Utils</name>
     <url>http://maven.apache.org</url>

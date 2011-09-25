@@ -19,7 +19,7 @@ public class APIResponse<ResponseEntity>
      *
      * @return The raw response string.
      */
-    private String getRawResponseString()
+    public String getRawResponseString()
     {
         return rawResponseString;
     }

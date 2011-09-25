@@ -5,6 +5,7 @@ import com.ideas.entities.ideas.Idea;
 import com.ideas.entities.ideas.Ideas;
 import org.junit.Test;
 
+import java.util.Iterator;
 import java.util.UUID;
 
 import static org.junit.Assert.*;
@@ -102,5 +103,35 @@ public class TestIdeasService
                 ideaText,
                 ideas.getIdeaList().get(0).getIdeaText()
         );
+    }
+
+    /**
+     * Test getting the most liked ideas.
+     */
+    @Test
+    public void testGetMostLikedIdeas()
+    {
+
+        IdeasService service = new IdeasService();
+
+        Ideas ideas = service.getMostLikedIdeas(10);
+
+        long previousValue = Long.MAX_VALUE;
+
+        Iterator<Idea> ideaIterator = ideas.getIdeaList().iterator();
+        Idea idea;
+
+        while (ideaIterator.hasNext())
+        {
+            idea = ideaIterator.next();
+
+            assertTrue(
+                    "Asserting that the previous idea in the list is more liked than the next idea in the list.",
+                    (idea.getLikeCount().getCount() <= previousValue)
+            );
+
+            previousValue = idea.getLikeCount().getCount();
+        }
+
     }
 }

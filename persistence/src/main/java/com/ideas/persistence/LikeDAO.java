@@ -16,7 +16,7 @@ import javax.persistence.Query;
 public class LikeDAO extends HibernateDAO<Like>
 {
 
-    @PersistenceContext(unitName = "like")
+    @PersistenceContext(unitName = "likePersistenceUnit")
     private EntityManager entityManager;
 
     /**

@@ -34,6 +34,7 @@
     <jaxrs:server id="services" address="/">
         <jaxrs:serviceBeans>
             <ref bean="ideasService"/>
+            <ref bean="likeService"/>
             <!--<ref bean="document"/>-->
             <!--<ref bean="component"/>-->
             <!--<ref bean="componentType"/>-->
@@ -42,6 +43,19 @@
 
     <bean id="ideasService" class="com.ideas.api.server.services.IdeaService">
     </bean>
+
+    <bean id="likeService" class="com.ideas.api.server.services.LikeService"></bean>
+
+
+
+
+
+
+
+
+
+
+
 
     <tx:annotation-driven transaction-manager="txManager"/>
 
@@ -54,7 +68,30 @@
 
     <bean id="ideasEntityManager" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="ideasDataSource"/>
-        <property name="persistenceUnitName" value="idea"/>
+        <property name="persistenceUnitName" value="ideaPersistenceUnit"/>
+        <property name="jpaDialect">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
+        </property>
+
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+                <property name="database" value="${database}"/>
+                <property name="showSql" value="false"/>
+                <property name="databasePlatform" value="org.hibernate.dialect.MySQL5Dialect" />
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="likesDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <bean id="likesEntityManager" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="likesDataSource"/>
+        <property name="persistenceUnitName" value="likePersistenceUnit"/>
         <property name="jpaDialect">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
         </property>
@@ -75,58 +112,13 @@
         <qualifier value="ideas" />
     </bean>
 
-    <!-- bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor">
-        <property name="persistenceUnits">
-            <map>
-                <entry key="idea" value="persistence/idea"/>
-            </map>
-        </property>
-    </bean -->
+    <bean id="likeTransactionManager"
+          class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="likesEntityManager"/>
+        <property name="dataSource" ref="likesDataSource"/>
+        <qualifier value="likes" />
+    </bean>
 
     <context:component-scan base-package="com.ideas">
     </context:component-scan>
-
-
-    <!--<bean id="document" class="com.ideas.api.server.services.DocumentService">-->
-        <!--<property name="dynamicModelDao" ref="documentsDAO"/>-->
-    <!--</bean>-->
-
-    <!--<bean id="component" class="com.ideas.api.server.services.ComponentService">-->
-        <!--<property name="dynamicModelDao" ref="componentDAO"/>-->
-    <!--</bean>-->
-
-    <!--<bean id="componentType" class="com.ideas.api.server.services.ComponentTypeService">-->
-        <!--<property name="dynamicModelDao" ref="componentTypeDAO"/>-->
-    <!--</bean>-->
-
-
-    <!--<bean id="mongo" class="com.mongodb.Mongo">-->
-        <!--<constructor-arg value="localhost"/>-->
-    <!--</bean>-->
-
-    <!--<bean id="db" class="com.ideas.persistance.DBFactory">-->
-        <!--<property name="mongo" ref="mongo"/>-->
-        <!--<property name="name" value="ideasDB"/>-->
-    <!--</bean>-->
-
-
-    <!--<bean id="placeholderConfigurer"-->
-
-    <!--class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
-    <!--<property name="ignoreUnresolvablePlaceholders" value="false"/>-->
-    <!--<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE"/>-->
-    <!--<property name="ignoreResourceNotFound" value="false"/>-->
-    <!--<property name="locations">-->
-    <!--<list>-->
-    <!--<value>classpath*:/database.properties</value>-->
-    <!--</list>-->
-    <!--</property>-->
-    <!--</bean>-->
-
-    <!--<bean id="ideasDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
-    <!--<property name="driverClassName" value="${jdbc.driver}"/>-->
-    <!--<property name="url" value="${jdbc.url}"/>-->
-    <!--<property name="username" value="${jdbc.username}"/>-->
-    <!--<property name="password" value="${jdbc.password}"/>-->
-    <!--</bean>-->
 </beans>

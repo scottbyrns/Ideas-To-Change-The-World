@@ -34,7 +34,7 @@
 
     <bean id="ideasEntityManager" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="ideasDataSource"/>
-        <property name="persistenceUnitName" value="idea"/>
+        <property name="persistenceUnitName" value="ideaPersistenceUnit"/>
         <property name="jpaDialect">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
         </property>
@@ -57,7 +57,7 @@
 
     <bean id="likesEntityManager" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
         <property name="dataSource" ref="likesDataSource"/>
-        <property name="persistenceUnitName" value="like"/>
+        <property name="persistenceUnitName" value="likePersistenceUnit"/>
         <property name="jpaDialect">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
         </property>

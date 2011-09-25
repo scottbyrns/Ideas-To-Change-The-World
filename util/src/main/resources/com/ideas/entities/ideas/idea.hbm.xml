@@ -11,6 +11,10 @@
         </id>
         <property name="title" type="string" column="title"/>
         <property name="ideaText" type="string" column="text"/>
+        <bag name="likeList" cascade="all" lazy="false">
+            <key column="ideaId"/>
+            <one-to-many class="com.ideas.entities.ideas.Like" />
+        </bag>
     </class>
 
 </hibernate-mapping>

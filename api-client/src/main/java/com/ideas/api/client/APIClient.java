@@ -93,6 +93,8 @@ public class APIClient
             try
             {
                 apiResponse.setRawResponseString(EntityUtils.toString(resEntity));
+
+                System.out.println(apiResponse.getRawResponseString());
             }
             catch (IOException e)
             {

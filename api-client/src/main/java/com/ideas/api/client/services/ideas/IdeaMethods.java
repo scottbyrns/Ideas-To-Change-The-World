@@ -8,4 +8,5 @@ public class IdeaMethods
     public static final String GET = "/idea/get/{$id}";
     public static final String CREATE = "/idea/create";
     public static final String GET_LATEST = "/idea/latest/{$count}";
+    public static final String GET_MOST_LIKED = "/idea/mostLiked/{$count}";
 }

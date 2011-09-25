@@ -1,6 +1,7 @@
 package com.ideas.entities.ideas;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 /**

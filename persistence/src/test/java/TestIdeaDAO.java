@@ -102,4 +102,16 @@ public class TestIdeaDAO  extends AbstractTransactionalJUnit4SpringContextTests
         );
 
     }
+
+    /**
+     * Test getting ideas by likes.
+     *
+     * @TODO Actually test.
+     */
+    @Test
+    public void testGetIdeasByLikes() throws Exception
+    {
+        Ideas ideas = ideaDao.getMostLikedIdeas(10);
+        ideas.getIdeaList();
+    }
 }
